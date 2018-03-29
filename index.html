@@ -10,6 +10,35 @@
 </head>
 
 <body onload="getByPopularity(),getMoviesTheatres()">
+
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id="close" onclick="fecharModal()">&times;</span>
+      <h2 id="modal-head-title">Modal Header</h2>
+    </div>
+    <div class="modal-body">
+    	
+    	<img id="imagemModal" src="">
+    	
+    		  <p id="tituloModal">Title</p>
+    		  <p id="generoModal">Title</p>
+    		  <p id="overviewModal">Title</p>
+    		  <p id="releaseDateModal">Title</p>
+    		  <p id="runtimeModal">Title</p>
+    				
+
+    </div>
+    <div class="modal-footer">
+      <h3>Appmoove</h3>
+    </div>
+  </div>
+
+</div>
+
 		<div class="header-title">
 		<img id="header_img" src="logotipo_pareazul.svg">
 		<p class="nome">EMANUEL FELIPE GIROLDO MAZZER</p>
@@ -26,7 +55,6 @@
 			<div class="divFilme1">
 				<p id="title0">Titulo</p>
 				<img id="img0" src="">
-				<!--<img id="ttt" src="250px-Avengers_Infinity_War.jpg">-->
 				
 			</div>
 
@@ -55,31 +83,31 @@
 					<th id="generoFilme">Gênero</th>
 				</tr>
 				<tr>
-					<td id="filme1">a</td>
+					<td onclick="abrirModal(this)" id="filme1" >a</td>
 					<td id="genero1">b</td>
 					
 				</tr>
 
 				<tr>
-					<td id="filme2">a</td>
+					<td onclick="abrirModal(this)" id="filme2">a</td>
 					<td id="genero2">b</td>
 					
 				</tr>
 
 				<tr>
-					<td id="filme3">a</td>
+					<td onclick="abrirModal(this)" id="filme3">a</td>
 					<td id="genero3">b</td>
 					
 				</tr>
 
 				<tr>
-					<td id="filme4">a</td>
+					<td onclick="abrirModal(this)" id="filme4">a</td>
 					<td id="genero4">b</td>
 					
 				</tr>
 
 				<tr>
-					<td id="filme5">a</td>
+					<td onclick="abrirModal(this)" id="filme5">a</td>
 					<td id="genero5">b</td>
 					
 				</tr>
@@ -87,7 +115,7 @@
 			</table>		
 		</div>
 
-
+		<!-- The Modal -->
 
     
     <!-- Put your html code here -->
