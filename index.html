@@ -13,37 +13,69 @@
 	<div class="container">
 		<div class="header-container">
 			<p class="nome-candidato">Kevin Perondi Regis</p>
-			<img src="logotipo_pareazul.svg" alt="logotipoApp">		
+			<img id="appmoove" src="logotipo_pareazul.svg" alt="logotipoApp">		
 		</div>
 	</div>
 	
 	<div class="search-bar">
 		<form>
-            <input type="text" placeholder="Buscar por um filme" id="search" onkeydown="getMovieByName(this)">
+            <input type="text" placeholder="Buscar por um filme" id="search" onkeydown="getMovieByName(event)">
 		</form>
 	</div>
 
 	<h2>Lançamentos</h2>
 	<div class="lancamentos">
 		<div class="movie-container">
-			
+			<img id="latest0">
+			<p id="desc0"></p>
 		</div>
 
 		<div class="movie-container">
-			
+			<img id="latest1">
+			<p id="desc1"></p>			
 		</div>
 
 		<div class="movie-container">
+			<img id="latest2">
+			<p id="desc2"></p>
 			
 		</div>
 	</div>
 
 	<h2>Mais populares</h2>
-	<div>
-		
+	<div class="tabela">
+		<table>
+			<tr>
+				<th>Nome do filme</th>
+				<th>Gênero</th>
+			</tr>
+			<tr>
+				<td id="movie0"></td>
+				<td id="genre0"></td>
+			</tr>
+			<tr>
+				<td id="movie1"></td>
+				<td id="genre1"></td>
+			</tr>
+			<tr>
+				<td id="movie2"></td>
+				<td id="genre2"></td>
+			</tr>
+			<tr>
+				<td id="movie3"></td>
+				<td id="genre3"></td>
+			</tr>
+			<tr>
+				<td id="movie4"></td>
+				<td id="genre4"></td>
+			</tr>
+		  </table>
 	</div>
 
 </body>
 
+<script>
+	main();
+</script>
 
 </html>
