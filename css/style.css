@@ -56,11 +56,13 @@ embed {
 #textoBusca{
 	width: 100%;
 	font-style: italic;
-	padding-left: 0.5em;
+
+	
 }
 #lancamentos{
 	text-align: center;
 	font-size: 25px;
+
 }
 .content{
 	width: 50%;
@@ -68,13 +70,14 @@ embed {
 	text-align: center;
 	display: flex;
 	margin-bottom: 2em;
+	height: 280px;
 	
 }
 
 .divFilme1{
 	width: 33%;
 	border: 1px solid;
-	height: 230px;
+	height: 255px;
 	margin-right: 0.8em;
 	
 
@@ -83,20 +86,22 @@ embed {
 .divFilme2{
 	width: 33%;
 	border: 1px solid;
-	height: 230px;
+	height: 255px;
 	margin-right: 0.8em;
 }
 
 .divFilme3{
 	width: 33%;
-	background-color: #FF2244;
+	
 	border: 1px solid;
-	height: 230px;
+	height: 255px;
 }
 .divLista{
 	width: 80%;
 	margin: 0 auto;
 	height: 100%;
+
+
 
 }
 
@@ -115,16 +120,37 @@ th{
 }
 tr{
 	border: 1px solid;
-	margin-bottom: 2em;
+	cursor: pointer;
+
 
 }
-/*tr:hover {background-color: #f5f5f5;}*/
+tr:hover {background-color: #f5f5f5;}
 td{
 	border: #04A9DE 1px solid;
 	padding-left: 0.5em;
 	height: 1.5em;
 	margin-bottom: 2em;
 }
+
 #nomeFilme{
 	width: 80%;
 }
+
+#img0{
+	width: 70%;
+	height: 75%;
+	margin: 0 auto;
+}
+
+#img1{
+	width: 70%;
+	height: 190px;
+	margin: 0 auto;
+}
+
+#img2{
+	width: 70%;
+	height: 190px;
+	margin: 0 auto;
+}
+

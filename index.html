@@ -6,16 +6,17 @@
     <title>Teste desenvolvedor Appmoove</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body>
+<body onload="getByPopularity(),getMoviesTheatres()">
 		<div class="header-title">
 		<img id="header_img" src="logotipo_pareazul.svg">
-		<p class="nome">EMANUEL FEIPE GIROLDO MAZZER</p>
+		<p class="nome">EMANUEL FELIPE GIROLDO MAZZER</p>
 		</div>
 
 		<div class="divBusca" >
-			<input type="text" id="textoBusca" placeholder="Buscar por um filme">	
+			<input type="text" id="textoBusca" placeholder="Buscar por um filme" onkeydown="txtSearch(event)">	
 		</div>
 		<h1 id="lancamentos">Lançamentos</h1>
 
@@ -23,7 +24,8 @@
 			
 
 			<div class="divFilme1">
-				<p>Titulo</p>
+				<p id="title0">Titulo</p>
+				<img id="img0" src="">
 				<!--<img id="ttt" src="250px-Avengers_Infinity_War.jpg">-->
 				
 			</div>
@@ -31,13 +33,15 @@
 
 
 			<div class="divFilme2">
-				<p>Titulo</p>
+				<p id="title1">Titulo</p>
+				<img id="img1" src="">
 				
 			</div>
 
 
 			<div class="divFilme3">
-				<p>Titulo</p>
+				<p id="title2">Titulo</p>
+				<img id="img2" src="">
 				
 			</div>
 
@@ -51,32 +55,32 @@
 					<th id="generoFilme">Gênero</th>
 				</tr>
 				<tr>
-					<td>a</td>
-					<td>b</td>
+					<td id="filme1">a</td>
+					<td id="genero1">b</td>
 					
 				</tr>
 
 				<tr>
-					<td><a href="href=http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc?&api_key=c8ef047748a08ef5a7457d40c0251e37"> AA </a></td>
-					<td>b</td>
+					<td id="filme2">a</td>
+					<td id="genero2">b</td>
 					
 				</tr>
 
 				<tr>
-					<td>a</td>
-					<td>b</td>
+					<td id="filme3">a</td>
+					<td id="genero3">b</td>
 					
 				</tr>
 
 				<tr>
-					<td>a</td>
-					<td>b</td>
+					<td id="filme4">a</td>
+					<td id="genero4">b</td>
 					
 				</tr>
 
 				<tr>
-					<td>a</td>
-					<td>b</td>
+					<td id="filme5">a</td>
+					<td id="genero5">b</td>
 					
 				</tr>
 		
